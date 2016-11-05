@@ -1,0 +1,7 @@
+
+<view class="section">
+    <input name="task" bindinput="bindInputValue" placeholder="请输入你接下来要做的事情" focus="{{focus}}" value="{{inputValue}}" />
+    <view class="btn-area">
+        <button bindtap="createTask">创建任务</button>
+    </view>
+</view>
